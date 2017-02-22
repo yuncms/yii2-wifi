@@ -1,0 +1,28 @@
+{
+    "name": "yuncms/yii2-wifi",
+    "description": "wifi",
+    "keywords": [ "wifidog", "wifi"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yuncms/yii2-wifi/issues",
+        "source": "https://github.com/yuncms/yii2-wifi"
+    },
+    "authors": [
+        {
+            "name": "Xu TL",
+            "email": "xutongle@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yuncms\\wifi\\": ""
+        }
+    },
+    "require-dev": {
+        "yiisoft/yii2-codeception": "^2.0"
+    }
+}
